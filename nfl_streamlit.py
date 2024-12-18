@@ -4,10 +4,10 @@ import matplotlib.pyplot as plt
 from nfl_package.analysis import top_boxplot 
 
 
-df = pd.read_csv('nfl_package/datasets/kc_offensive_game_stats_cleaned.csv')
-df2 = pd.read_csv('nfl_package/datasets/kc_opp_game_stats_cleaned.csv')
-df3 = pd.read_csv('nfl_package/datasets/min_offensive_game_stats_cleaned.csv')
-df4 = pd.read_csv('nfl_package/datasets/min_opp_game_stats_cleaned.csv')
+#df = pd.read_csv('nfl_package/datasets/kc_offensive_game_stats_cleaned.csv')
+#df2 = pd.read_csv('nfl_package/datasets/kc_opp_game_stats_cleaned.csv')
+#df3 = pd.read_csv('nfl_package/datasets/min_offensive_game_stats_cleaned.csv')
+#df4 = pd.read_csv('nfl_package/datasets/min_opp_game_stats_cleaned.csv')
 
 
 st.title('Scatterplot of Points Scored vs Points Allowed')
